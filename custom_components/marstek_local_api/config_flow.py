@@ -18,6 +18,7 @@ from homeassistant.helpers import config_validation as cv
 
 from .api import MarstekAPIError, MarstekUDPClient
 from .const import CONF_PORT, DATA_COORDINATOR, DEFAULT_PORT, DEFAULT_SCAN_INTERVAL, DOMAIN
+from .const import METHOD_GET_DEVICE_ON, METHOD_WIFI_STATUS_ON, METHOD_BLE_STATUS_ON, METHOD_BATTERY_STATUS_ON, METHOD_PV_STATUS_ON, METHOD_ES_STATUS_ON, METHOD_ES_MODE_ON, METHOD_ES_SET_MODE_ON, METHOD_EM_STATUS_ON
 
 _LOGGER = logging.getLogger(__name__)
 
